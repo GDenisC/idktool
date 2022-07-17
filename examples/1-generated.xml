@@ -1,0 +1,36 @@
+<xml>
+    <set name="test">
+        <layer>
+            <id>1</id>
+            <cameraInputTarget>1</cameraInputTarget>
+            <colorR>255</colorR>
+            <colorG>255</colorG>
+            <colorB>255</colorB>
+            <colorA>254.215125</colorA>
+            <category>1</category>
+            <erase>1</erase>
+            <mirrored>1</mirrored>
+            <rotation>-21.241215125122125</rotation>
+            <posX>1.2512521521</posX>
+            <posY>-1.5215251512</posY>
+            <sizeX>1.125125125125</sizeX>
+            <sizeY>0.7125165246</sizeY>
+        </layer>
+        <layer>
+            <id>2</id>
+            <cameraInputTarget>1</cameraInputTarget>
+            <colorR>0</colorR>
+            <colorG>0</colorG>
+            <colorB>0</colorB>
+            <colorA>255</colorA>
+            <category>2</category>
+            <erase>0</erase>
+            <mirrored>1</mirrored>
+            <rotation>0</rotation>
+            <posX>1</posX>
+            <posY>-1</posY>
+            <sizeX>1</sizeX>
+            <sizeY>2</sizeY>
+        </layer>
+    </set>
+</xml>
