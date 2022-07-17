@@ -17,6 +17,6 @@ class XML:
     def create(self) -> None:
         self.content.append(f"    </set>")
         self.content.append("</xml>")
-        with open('mod.xml', 'w') as f:
+        with open('generated.xml', 'w') as f:
             f.write('\n'.join(self.content))
 
