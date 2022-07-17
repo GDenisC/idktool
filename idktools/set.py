@@ -7,11 +7,9 @@ __all__ = [
 
 class XML:
     def __init__(self, name: str) -> None:
-        global NowXML
         self.content: Sequence[str] = []
         self.content.append("<xml>")
         self.content.append(f"    <set name=\"{name}\">")
-        NowXML = self
     
     def add(self, data: Sequence[str]) -> None:
         self.content += data
