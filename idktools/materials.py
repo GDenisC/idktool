@@ -7,7 +7,7 @@ __all__ = [
 ]
 
 class Materials(IntEnum, metaclass=EnumMeta):
-    Default: Final[int] = 0
-    Tarmac: Final[int] = 1
-    Tarmac_damaged: Final[int] = 2
-    Tarmac_really_damaged: Final[int] = 3
+    Default = 0
+    Tarmac = 1
+    TarmacDamaged = 2
+    TarmacReallyDamaged = 3
